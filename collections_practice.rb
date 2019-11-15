@@ -36,6 +36,7 @@ def find_a(array)
   array.each {|i|
     if i.start_with?(a)
     a << i
+    end
   }
   a
 end
