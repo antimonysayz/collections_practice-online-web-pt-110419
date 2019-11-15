@@ -50,7 +50,7 @@ end
 def add_s(array)
   array.collect {|word| 
   if array[1] == word
-    word == word
+    word = word
 else
   word + "s"
 end}
