@@ -19,5 +19,4 @@ end
 def reverse_array(array)
   reversed = array
   reversed.sort {|x, y| x.length <=> y.length}
-  
 end
