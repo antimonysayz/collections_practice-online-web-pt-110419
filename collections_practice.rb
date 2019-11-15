@@ -18,5 +18,5 @@ end
 
 def reverse_array(array)
   reversed = array
-  reversed.sort {|x, y| x <=> y}
+  reversed.sort {|x, y| y <=> x}
 end
