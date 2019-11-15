@@ -27,6 +27,6 @@ reverse
 end
 
 def kesha_maker(array)
-  kesha = []
-  array.each
+  kesha = array
+  kesha.each {|i| i[2] = $}
 end
