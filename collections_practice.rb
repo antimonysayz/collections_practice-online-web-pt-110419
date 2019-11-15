@@ -46,3 +46,4 @@ def sum_array(array)
   array.each{|i| sum += i}
   sum
 end
+
