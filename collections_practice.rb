@@ -37,4 +37,5 @@ def find_a(array)
     if i.start_with?(a)
     a << i
   }
+  a
 end
