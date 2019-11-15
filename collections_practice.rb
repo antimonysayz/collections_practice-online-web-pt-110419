@@ -18,8 +18,8 @@ end
 
 def reverse_array(array)
   reverse = []
-  i = array.length
-  while i > 0
+  i = array.length - 1
+  while i >= 0
   reverse << array[i]
   i -=1
   end
